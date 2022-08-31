@@ -1,0 +1,40 @@
+.main{
+    max-height: 40px;
+}
+.btn{
+    float: right;
+    background-color: white;
+    border:0px;
+
+}
+.btn:hover{
+    transform: rotate(180deg);
+    cursor: pointer;
+    transition: 0.5s;
+    color: aqua;
+}
+
+@media screen and (max-width:300px){
+    .main-logo{
+        display: none;
+    }
+}
+
+.main-logo{
+   display: flex;
+   overflow: hidden;
+   list-style: none;
+}
+li{
+    display: inline-flex;
+    align-items: center;
+    margin-right: 20px;
+    list-style-type: none;
+    list-style: none;
+    text-underline: none;
+}
+@media  screen and (min-width:600px){
+    .btn{
+        display: none;
+        float:right;
+    }}
